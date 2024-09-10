@@ -10,3 +10,11 @@ function addParagraph() {
 
 
 addParagraph();
+//Drugi  zadatak
+function addButton() {
+    let button = document.createElement('button');
+    button.textContent = "Klikni me";
+    document.getElementById('buttonContainer').appendChild(button);
+}
+
+addButton();
