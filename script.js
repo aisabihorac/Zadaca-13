@@ -44,4 +44,18 @@ function insertHTML() {
 
 
 insertHTML();
+//Peti zadatak
+function insertImage() {
+   
+    const imageSrc = "assets/c1.png";
+    
+  
+    var html = `
+        <img src="${imageSrc}" alt="Slika automobila">
+    `;  
+    
+   
+    document.getElementById('imageContainer').innerHTML = html;
+}
+insertImage();
 
