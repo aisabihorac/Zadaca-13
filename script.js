@@ -18,3 +18,17 @@ function addButton() {
 }
 
 addButton();
+//Treci zadatak
+function createList() {
+
+    let ul = document.createElement('ul');
+
+  
+    for (let i = 1; i <= 3; i++) {
+        let li = document.createElement('li'); 
+        li.textContent = "Stavka " + i; 
+        ul.appendChild(li);
+    }
+      document.getElementById('listContainer').appendChild(ul);
+}
+createList();
