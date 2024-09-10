@@ -32,3 +32,16 @@ function createList() {
       document.getElementById('listContainer').appendChild(ul);
 }
 createList();
+//Cetvrti zadatak
+function insertHTML() {
+
+    var html = `
+        <p>Ovo je paragraf ubačen iz JavaScript-a.</p>
+        <button>Klikni ovdje</button>
+    `;
+     document.getElementById('contentContainer').innerHTML = html;
+}
+
+
+insertHTML();
+
